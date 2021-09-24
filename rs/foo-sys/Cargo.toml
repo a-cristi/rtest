@@ -1,0 +1,17 @@
+[package]
+name = "foo-sys"
+version = "0.1.0"
+authors = ["Cristi"]
+edition = "2018"
+links = "foo"
+build = "build.rs"
+
+[lib]
+name = "foo_sys"
+path = "src/lib.rs"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.59.1"
+cc = "1.0.70"

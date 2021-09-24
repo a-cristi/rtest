@@ -1,0 +1,12 @@
+[package]
+name = "foors"
+version = "0.1.0"
+authors = ["Cristi"]
+edition = "2018"
+
+[lib]
+name = "foors"
+path = "src/lib.rs"
+
+[dependencies]
+foo-sys = { path = "../foo-sys" }
